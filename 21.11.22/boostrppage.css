@@ -1,0 +1,72 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+header {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('https://res.cloudinary.com/highereducation/images/w_2560,h_1707/f_auto,q_auto/v1659636076/BestColleges.com/Difference-between-front-end-and-back-end-developer_169243cb9a/Difference-between-front-end-and-back-end-developer_169243cb9a.jpg?_i=AA');
+    background-size: cover;
+    height: 100vh;
+}
+
+ul {
+    list-style-type: none;
+    float: right;
+    margin-top: 35px;
+    display: flex;
+}
+
+ul li a {
+    color: white;
+    padding: 20px;
+}
+
+ul li a:hover {
+    color: orangered;
+}
+
+.logo {
+    width: 1200px;
+    position: sticky;
+}
+
+.logo img {
+    width: 200px;
+    height: 56px;
+    margin-top: 20px;
+}
+
+.title h2 {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    color: white;
+    transform: translate(-50%, -50%);
+    font-size: 40px;
+}
+
+.title h1 {
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    color: white;
+    transform: translate(-50%, -50%);
+    font-size: 60px;
+}
+
+.btn {
+    position: absolute;
+    top: 65%;
+    left: 50%;
+    color: white;
+    transform: translate(-50%, -50%);
+    border: 1px solid orange;
+    padding: 10px 30px;
+    border-radius: 5px;
+    background-color: orange;
+}
+
+.btn:hover {
+    background-color: rgb(168, 110, 2);
+}
